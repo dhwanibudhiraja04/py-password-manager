@@ -158,11 +158,11 @@ def getpassword():
 def firstpage():
     print("---------------------------------------------")
     openpage=int(input("""How do you want to proceed?
-              1) View all your accounts and passwords. 
-              2) Add new account and password.
+              1) View all your passwords. 
+              2) Add new password.
               3) Get password.
-              4) Edit your account or passwords.
-              5) Delete your account or passwords.
+              4) Edit your passwords.
+              5) Delete your passwords.
               6) Exit and return to login page. 
               """))
     if openpage==1:
